@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimonial.css'
-import IMG from '../../assets/me.png'
+import IMG from '../../assets/mee.png'
 
 // import Swiper core and required modules
 import { Pagination, A11y } from 'swiper';
