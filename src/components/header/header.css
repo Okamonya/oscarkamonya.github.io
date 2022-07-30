@@ -63,7 +63,7 @@ header {
 /**medium devices**/
 @media screen and (max-width: 1024px) {
     .container {
-        height: 68vh;
+        height: 50vh;
     }
 }
 

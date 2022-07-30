@@ -117,6 +117,7 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
+        margin-top: 1rem;
     }
     section {
         margin-top: 6rem;
@@ -127,8 +128,13 @@ img {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-ms);
+        
     }
     section > h2{
         margin-bottom: 2rem;
+    }
+
+    section {
+        box-sizing: border-box;
     }
 }

@@ -56,16 +56,25 @@
         padding: 1rem;
     }
 
+    #experience {
+        margin-top: 16rem;
+    }
+
 }
 /**small devices**/
 @media screen and (max-width: 600px) {
     .experience__container {
-        gap: 1rem;
+        display: flex;
+        overflow: auto;
     }
 
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    #experience {
+        margin-top: 44rem;
     }
 
 }

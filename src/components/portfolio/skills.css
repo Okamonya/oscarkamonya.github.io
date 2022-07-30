@@ -34,12 +34,23 @@
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
+    #skills {
+        margin-top: -20px;
+    }
 }
 
 /**small devices**/
 @media screen and (max-width: 600px) {
     .portfolio__container{
-        grid-template-columns: 1fr;
+        display: flex;
+        overflow: auto;
         
     }
+
+
+    #skills {
+        margin-top: 12rem;
+        margin-bottom: -700px;
+    }
+    
 }

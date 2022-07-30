@@ -5,7 +5,7 @@ import {IoLogoGithub} from 'react-icons/io'
 
 function Footer() {
   return (
-    <footer>
+    <footer id='footer'>
       <a href="#" className='footer__logo'>OSCAR</a>
 
       <ul className='permalinks'>
