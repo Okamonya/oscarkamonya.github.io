@@ -6,7 +6,11 @@
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background: var(--color-primary);
 }
-
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-scrollbar {
+    display: none;
+}
 .client__avatar {
     width: 4rem;
     aspect-ratio: 1/1;

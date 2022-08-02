@@ -2,6 +2,17 @@ import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
+// import Swiper core and required modules
+import {Swiper, SwiperSlide} from 'swiper/react'
+import {Pagination, Autoplay} from 'swiper'
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
+
 
 function Experience() {
   return (
@@ -9,7 +20,43 @@ function Experience() {
       <h5>My Tech Stack</h5>
       <h2>Experience</h2>
 
-      <div className='container experience__container'>
+      <Swiper
+      
+      // install Swiper modules
+      modules={[ Pagination, Autoplay]}
+      spaceBetween={50}
+      breakpoints={{
+
+          480: {
+            slidesPerView: 1,
+            noSwiping: true,
+            allowSlidePrev: true,
+            allowSlideNext: true
+          },
+      
+          992: {
+            slidesPerView: 2,
+            noSwiping: true,
+            allowSlidePrev: true,
+            allowSlideNext: true
+          },
+      
+          1024: {
+            slidesPerView: 2,
+            noSwiping: false,
+            allowSlidePrev: false,
+            allowSlideNext: false
+          }
+      }}
+      loop={true}
+      autoplay={{delay: 4000}}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide className='container experience__container'>
         <div className='experience__frontend'>
           <h3>Frontend Developement</h3>
           <div className="experience__content">
@@ -57,6 +104,8 @@ function Experience() {
             </article>
           </div>
         </div>
+      </SwiperSlide>
+      <SwiperSlide className='container experience__container'>
         <div className='experience__backend'>
           <h3>Backend Developement</h3>
           <div className="experience__content">
@@ -104,7 +153,8 @@ function Experience() {
             </article>
           </div>
         </div>
-      </div>
+      </SwiperSlide>
+    </Swiper>
     </section>
   )
 }

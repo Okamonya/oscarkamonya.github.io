@@ -3,13 +3,14 @@ import './testimonial.css'
 import IMG from '../../assets/mee.png'
 
 // import Swiper core and required modules
-import { Pagination, A11y } from 'swiper';
+import { Pagination, Autoplay} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay'
 
 
 const data = [
@@ -44,9 +45,11 @@ function Testimonial() {
 
       <Swiper className='container testimonial__container'
       // install Swiper modules
-      modules={[Pagination, A11y]}
+      modules={[Pagination, Autoplay]}
       spaceBetween={40}
       slidesPerView={1}
+      loop={true}
+      autoplay={{delay: 4000}}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
