@@ -36,9 +36,9 @@ function Experience() {
       
           992: {
             slidesPerView: 2,
-            noSwiping: true,
-            allowSlidePrev: true,
-            allowSlideNext: true
+            noSwiping: false,
+            allowSlidePrev: false,
+            allowSlideNext: false
           },
       
           1024: {

@@ -58,9 +58,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
-    #services {
-        margin-top: 16rem;
-    }
+    
 }
 
 /**small devices**/
@@ -70,9 +68,7 @@
         gap: 1.5rem;
     }
 
-    #services {
-        margin-top: 2rem;
-    }
+    
 }
 
 

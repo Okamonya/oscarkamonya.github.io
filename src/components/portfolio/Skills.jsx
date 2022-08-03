@@ -2,9 +2,10 @@ import React from 'react'
 import './skills.css'
 import './projects'
 import { Projects } from './projects'
+import image from '../../assets/p1.jpg'
 
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
+import { Pagination, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -25,7 +26,7 @@ function Skills() {
         <div className="container portfolio__container">
             <Swiper
               // install Swiper modules
-              modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+              modules={[Pagination, Autoplay]}
               spaceBetween={40}
               breakpoints={{
                 992: {
@@ -56,7 +57,7 @@ function Skills() {
                   return (
               <SwiperSlide key={details.id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
-                  <img src={details.image} alt={details.title} />
+                  <img src={image} alt={details.title} />
                 </div>
                   <h3>{details.title}</h3>
                   <div className="portfolio__item-cta">

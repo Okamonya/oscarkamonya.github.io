@@ -1,6 +1,7 @@
 .container.testimonial__container {
     width: 40%;
     padding-bottom: 5rem;
+    
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -45,9 +46,7 @@
         padding-top: 20rem;
     }
 
-    #testimonial {
-        margin-top: 47rem;
-    }
+    
 
     #testimonial h2 {
         margin-bottom: -250px;
@@ -65,8 +64,6 @@
         width: var(--container-width-ms);
     }
 
-    #testimonial {
-        margin-bottom: 0px;
-    }
+    
 
 }
