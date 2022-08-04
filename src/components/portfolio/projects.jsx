@@ -15,7 +15,7 @@ export const Projects = [
     },
     {
       id: 3,
-      image: "images/p3.jpg",
+      image: "images/p3.png",
       title: 'name of project',
       github: 'http://github.com',
       demo: 'http://demo.com'
