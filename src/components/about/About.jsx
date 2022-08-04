@@ -37,11 +37,12 @@ const About = () => {
               <small>7+ projects</small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut porro quia, laudantium aspernatur sed incidunt iste, quasi maiores voluptatum, necessitatibus veritatis itaque illum aliquid aliquam eveniet dolores! Corrupti repudiandae veritatis modi asperiores dolorum, reprehenderit velit ab cum expedita dolores minima doloribus saepe amet omnis optio obcaecati. Quia odit quae laborum.
+          <p id='contact'>
+          Hi, I'm Oscar. I'm a multitalented person with just over a year of experience. Highly motivated, fueled by high energy levels and boundless tech enthusiasm. I don't define myself by the work I've done, rather I define myself by what I want to do. I work to make better solutions; that is fast, easy to use, beautiful, efficient, accessible, and responsive. I focus more on building Java web apps but recently I have been crossing borders to expand my knowledge.
+I prefer to keep learning, continue challenging myself, and do interesting things that matter.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="mailto:oscarkamonya@gmail.com" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>

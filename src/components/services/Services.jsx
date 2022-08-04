@@ -28,14 +28,6 @@ function Services() {
             </li>
             <li>
               <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Cus</p>
-            </li>
-            <li>
-              <AiOutlineCheckCircle className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheckCircle className='service__list-icon'/>
               <p>Website maintenance.</p>
             </li>
           </ul>
