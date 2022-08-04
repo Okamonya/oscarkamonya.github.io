@@ -16,7 +16,7 @@ import 'swiper/css/autoplay';
 
 function Experience() {
   return (
-    <section id='experience'>
+    <section id='experience' className='experience'>
       <h5>My Tech Stack</h5>
       <h2>Experience</h2>
 
@@ -38,19 +38,19 @@ function Experience() {
             slidesPerView: 2,
             noSwiping: false,
             allowSlidePrev: false,
-            allowSlideNext: false
+            allowSlideNext: false,
           },
       
           1024: {
             slidesPerView: 2,
             noSwiping: false,
             allowSlidePrev: false,
-            allowSlideNext: false
+            allowSlideNext: false,
+            pagination: false
           }
       }}
       loop={true}
       autoplay={{delay: 4000}}
-      navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
@@ -85,7 +85,7 @@ function Experience() {
               <BsPatchCheckFill className='experience__icon' />
               <div>
                 <h4>Javascript</h4>
-                <small className='text-light'>Experience</small>
+                <small className='text-light'>proficient</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -127,14 +127,14 @@ function Experience() {
               <BsPatchCheckFill className='experience__icon' />
               <div>
                 <h4>Python</h4>
-                <small className='text-light'>Experience</small>
+                <small className='text-light'>novice</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__icon' />
               <div>
                 <h4>C</h4>
-                <small className='text-light'>Experience</small>
+                <small className='text-light'>advanced beginner</small>
               </div>
             </article>
             <article className='experience__details'>

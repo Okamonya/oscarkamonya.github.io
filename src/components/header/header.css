@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
@@ -63,12 +63,13 @@ header {
 /**medium devices**/
 @media screen and (max-width: 1024px) {
     .container.header__container {
-        height: 50vh !important;
+        height: 50vh;
         
     }
 
     #header {
-        height: 100vh;
+        height: inherit;
+        
     }
 }
 

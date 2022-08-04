@@ -1,4 +1,6 @@
-
+.experience__container {
+    padding: 2rem;
+}
 
 .experience__container > div {
     background: var(--color-bg-variant);
@@ -6,6 +8,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    
 }
 
 
@@ -41,6 +44,7 @@
 @media screen and (max-width: 1024px) {
     .experience__container {
         grid-template-columns: 1fr;
+        padding-bottom: 4rem;
     }
 
     .experience__container > div {
@@ -62,6 +66,8 @@
         display: flex;
         overflow: auto;
         overflow-y: hidden;
+        padding: 0.5rem;
+        padding-bottom: 4rem;
     }
 
     .experience__container > div {
