@@ -15,10 +15,10 @@ function Header() {
         <Social/>
 
         <div className="profile">
-          <img src={Profile} alt="" />
+          <img src={Profile} alt=""/>
         </div>
 
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        <a href="#footer" className='scroll__down'>Scroll Down</a>
 
         
       </div>
