@@ -50,9 +50,7 @@ function Testimonial() {
       slidesPerView={1}
       loop={true}
       autoplay={{delay: 4000}}
-      navigation
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}>
         {
