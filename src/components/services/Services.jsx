@@ -15,15 +15,15 @@ function Services() {
           </div>
           <ul className='service__list'>
             <li>
-              <AiOutlineCheckCircle className='service__list-icon'/>
+              <div><AiOutlineCheckCircle className='service__list-icon'/></div>
               <p>Creation of websites for corporate presentation and brand building. Ensuring all websites have an easy-to-use page editor for dynamic content management.</p>
             </li>
             <li>
-              <AiOutlineCheckCircle className='service__list-icon'/>
+            <div><AiOutlineCheckCircle className='service__list-icon'/></div>
               <p>Providing ecommerce solutions for B2C, and marketplace business models.</p>
             </li>
             <li>
-              <AiOutlineCheckCircle className='service__list-icon'/>
+            <div><AiOutlineCheckCircle className='service__list-icon'/></div>
               <p>Customized Java-based Web Application Development. Building web apps for efficient management of different business activities. Also applying smart automation to streamline workflows and integrate systems together.</p>
             </li>
             <li>

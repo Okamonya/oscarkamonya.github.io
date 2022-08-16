@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import {BiPhoneCall} from 'react-icons/bi'
+import {AiOutlineMail, AiOutlineWhatsApp, AiOutlineLinkedin} from 'react-icons/ai'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -24,21 +24,21 @@ const Contact = () => {
       <div className='container contact-container'>
         <div className="contact__options">
           <article className='contact__option'>
-          <BiPhoneCall className='contact__optio-icon'/>
+          <AiOutlineMail className='contact__optio-icon'/>
             <h4>Email</h4>
-            <h5>oscarkamonya@gmai.com</h5>
+            
             <a href="oscarkamonya@gmail.com">Send A Message</a>
           </article>
           <article className='contact__option'>
-          <BiPhoneCall className='contact__optio-icon'/>
+          <AiOutlineLinkedin className='contact__optio-icon'/>
             <h4>LinkedIn</h4>
-            <h5>http://oscar-kamonya-a2607a124/.com</h5>
+            
             <a href="oscarkamonya@gmail.com">Send A Message</a>
           </article>
           <article className='contact__option'>
-            <BiPhoneCall className='contact__optio-icon'/>
-            <h4>WhatssApp</h4>
-            <h5>oscarkamonya@gmai.com</h5>
+            <AiOutlineWhatsApp className='contact__optio-icon'/>
+            <h4>WhatsApp</h4>
+            
             <a href="https://api.whatsapp.com/send?phone+254729039813">Send A Message</a>
           </article>
         </div>

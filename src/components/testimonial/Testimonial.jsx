@@ -16,22 +16,22 @@ import 'swiper/css/autoplay'
 const data = [
   {
     avatar: IMG,
-    name: 'Oscar Kamonya',
+    name: 'John Doe',
     review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius ipsum, facilis esse at assumenda vel, eos cupiditate et accusantium hic, aliquam dolores quos obcaecati? Maiores pariatur reiciendis vel! Veniam.'
   },
   {
     avatar: IMG,
-    name: 'Oscar Kamonya',
+    name: 'John Doe',
     review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius ipsum, facilis esse at assumenda vel, eos cupiditate et accusantium hic, aliquam dolores quos obcaecati? Maiores pariatur reiciendis vel! Veniam.'
   },
   {
     avatar: IMG,
-    name: 'Oscar Kamonya',
+    name: 'John Doe',
     review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius ipsum, facilis esse at assumenda vel, eos cupiditate et accusantium hic, aliquam dolores quos obcaecati? Maiores pariatur reiciendis vel! Veniam.'
   },
   {
     avatar: IMG,
-    name: 'Oscar Kamonya',
+    name: 'John Doe',
     review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius ipsum, facilis esse at assumenda vel, eos cupiditate et accusantium hic, aliquam dolores quos obcaecati? Maiores pariatur reiciendis vel! Veniam.'
   },
   
