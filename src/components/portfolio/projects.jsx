@@ -15,7 +15,7 @@ export const Projects = [
     },
     {
       id: 3,
-      image: "images/p3.png",
+      image: "images/app.PNG",
       title: 'Ecommerce Android App',
       github: 'https://github.com/Okamonya/Ecommerce_app',
       demo: ''
@@ -29,14 +29,14 @@ export const Projects = [
     },
     {
       id: 5,
-      image: "images/p5.jpg",
+      image: "images/web.jpg",
       title: 'Ecommerce Web App Backend',
-      github: 'http://github.comhttps://github.com/Okamonya/egrocery',
+      github: 'https://github.com/Okamonya/egrocery',
       demo: ''
     },
     {
       id: 6,
-      image: "images/p6.png",
+      image: "images/web.jpg",
       title: 'Ecommerce Web App Frotend',
       github: 'http://github.com',
       demo: ''

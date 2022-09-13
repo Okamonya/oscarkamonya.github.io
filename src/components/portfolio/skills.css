@@ -1,5 +1,5 @@
 .portfolio__container {
-    height: fit-content;
+    height: inherit;
     padding-bottom: 4rem;
     
 }
@@ -8,7 +8,6 @@
     background: var(--color-bg-variant);
     border-radius: 2rem;
     padding: 0.5rem;
-    height: fit-content;
     border: 1px solid transparent;
     transition: var(--transition);
 }
