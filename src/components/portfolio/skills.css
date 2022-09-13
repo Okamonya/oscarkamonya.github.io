@@ -1,5 +1,5 @@
 .portfolio__container {
-    height: inherit;
+    height: fit-content;
     padding-bottom: 4rem;
     
 }
