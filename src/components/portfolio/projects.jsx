@@ -16,28 +16,28 @@ export const Projects = [
     {
       id: 3,
       image: "images/p3.png",
-      title: 'name of project',
-      github: 'http://github.com',
+      title: 'Ecommerce Android App',
+      github: 'https://github.com/Okamonya/Ecommerce_app',
       demo: ''
     },
     {
       id: 4,
       image: "images/p4.jpg",
-      title: 'name of project',
-      github: 'http://github.com',
+      title: 'Tip Calc Android App',
+      github: 'https://github.com/Okamonya/Tip_Calculater',
       demo: ''
     },
     {
       id: 5,
       image: "images/p5.jpg",
-      title: 'name of project',
-      github: 'http://github.com',
+      title: 'Ecommerce Web App Backend',
+      github: 'http://github.comhttps://github.com/Okamonya/egrocery',
       demo: ''
     },
     {
       id: 6,
       image: "images/p6.png",
-      title: 'name of project',
+      title: 'Ecommerce Web App Frotend',
       github: 'http://github.com',
       demo: ''
     }
