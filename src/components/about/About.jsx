@@ -38,7 +38,7 @@ const About = () => {
             </article>
           </div>
           <p id='contact'>
-          Hi, I'm Oscar. I'm a multitalented person with just over a year of experience. Highly motivated, fueled by high energy levels and boundless tech enthusiasm. I don't define myself by the work I've done, rather I define myself by what I want to do. I work to make better solutions; that is fast, easy to use, beautiful, efficient, accessible, and responsive. I focus more on building Java web apps but recently I have been crossing borders to expand my knowledge.
+          Hi, I'm Oscar. I'm a multitalented person with just over 4 years of experience. Highly motivated, fueled by high energy levels and boundless tech enthusiasm. I don't define myself by the work I've done, rather I define myself by what I want to do. I work to make better solutions; that is fast, easy to use, beautiful, efficient, accessible, and responsive. I focus more on building Java web apps but recently I have been crossing borders to expand my knowledge.
 I prefer to keep learning, continue challenging myself, and do interesting things that matter.
           </p>
 
