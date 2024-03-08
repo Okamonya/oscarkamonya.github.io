@@ -24,7 +24,7 @@ function Footer() {
           <a href="mailto:oscarkamoya@gmail.com"><FiMail/></a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; OSCAR KAMONYA. All rights reserved.</small>
+        <small>&copy; OSCAR KAMONYA. 2023 All rights reserved.</small>
       </div>
     </footer>
   )
